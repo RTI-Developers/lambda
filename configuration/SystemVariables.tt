@@ -1,0 +1,20 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<variables>
+<#
+for (var i = 1; i <= lambdaCount; i++)
+{
+#>
+	<category name="%%__NAME_<#= i #>%%" condition="$LAMBDA_COUNT >= <#= i #>">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_<#= i #>" type="boolean" condition="$RESULT_TYPE_<#= i #> == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_<#= i #>" type="integer" condition="$RESULT_TYPE_<#= i #> == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_<#= i #>" type="string" condition="$RESULT_TYPE_<#= i #> == 3" sample="%%__NAME_<#= i #>%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_<#= i #>" type="image" condition="$RESULT_TYPE_<#= i #> == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_<#= i #>" type="list" condition="$RESULT_TYPE_<#= i #> == 5" />
+		<variable name="Error" sysvar="ERROR_<#= i #>" type="string" />
+	</category>
+<#
+}
+#>
+</variables>

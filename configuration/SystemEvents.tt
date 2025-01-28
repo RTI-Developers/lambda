@@ -1,0 +1,15 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+	<category name="General">
+<#
+for (var i = 1; i <= lambdaCount; i++)
+{
+#>
+		<event name="%%__NAME_<#= i #>%%: Result Changed" tag="RESULT_CHANGED_<#= i #>" condition="$LAMBDA_COUNT >= <#= i #>" />
+<#
+}
+#>
+	</category>
+</events>

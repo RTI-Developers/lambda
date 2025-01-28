@@ -1,0 +1,19 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<functions>
+	<category name="General">
+		<function name="Force Evaluation" export="evaluateIndex" repeatrate="0">
+			<parameter name="Lambda Expression" type="mcinteger">
+<#
+for (var i = 1; i <= lambdaCount; i++)
+{
+#>
+				<choice name="%%__NAME_<#= i #>%%" value="<#= i #>" condition="$LAMBDA_COUNT >= <#= i #>" />
+<#
+}
+#>
+			</parameter>
+		</function>
+	</category>
+</functions>

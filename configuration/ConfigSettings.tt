@@ -1,0 +1,65 @@
+<#@ output extension=".xml" #>
+<#@ include file=".\..\Variables.t4" #>
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<category name="General">
+		<setting name="Lambda Count" variable="LAMBDA_COUNT" type="mcinteger" default="1">
+<#
+for (int i = 1; i <= lambdaCount; i++)
+{
+#>
+		  <choice name="<#= i #>" value="<#= i #>"></choice>
+<#
+}
+#>
+    </setting>
+	</category>
+<#
+for (int i = 1; i <= lambdaCount; i++)
+{
+#>
+	<category name="Lambda <#= i #>" condition="$LAMBDA_COUNT >= <#= i #>">
+		<setting name="Name" variable="__NAME_<#= i #>" type="string" default="Lambda <#= i #>" />
+		<setting name="Description" variable="__DESCRIPTION_<#= i #>" type="string" />
+		<setting name="Enable Automatic Evaluation" variable="USE_AUTO_EVAL_<#= i #>" type="boolean" description="Automatically evaluate expression whenever an input variable changes" default="true" />
+		<setting name="Number of Input Variables" variable="INPUT_COUNT_<#= i #>" type="mcinteger" default="2">
+<#
+  for (int j = 0; j <= inputCount; j++)
+  {
+#>
+      <choice name="<#= j #>" value="<#= j #>" />
+<#
+  }
+#>
+		</setting>
+		<setting name="Expression" description="if (x1 % 2 == 0) { return x2 + prevResult; } else { return -1; }" variable="EXPRESSION_<#= i #>" type="string" />
+		<setting name="Result Type" variable="RESULT_TYPE_<#= i #>" type="mcinteger" default="2">
+			<choice name="Boolean" value="1" />
+			<choice name="Integer" value="2" />
+			<choice name="String" value="3" />
+			<choice name="Image" value="4" />
+			<choice name="List" value="5" />
+		</setting>
+<#
+  for (int j = 1; j <= inputCount; j++)
+  {
+#>
+		<setting name="Input <#= j #>: Type" variable="INPUT_<#= j #>_TYPE_<#= i #>" type="mcinteger" default="2" condition="$LAMBDA_COUNT >= <#= i #> and $INPUT_COUNT_<#= i  #> > <#= (j - 1) #>">
+			<choice name="Boolean" value="1" />
+			<choice name="Integer" value="2" />
+			<choice name="String" value="3" />
+		</setting>
+		<setting name="Input <#= j #>: Variable" variable="INPUT_<#= j #>_BOOL_<#= i #>" type="sysvarbool" condition="$LAMBDA_COUNT >= <#= i #> and $INPUT_COUNT_<#= i  #> > <#= (j - 1) #> and $INPUT_<#= j #>_TYPE_<#= i #> == 1" />
+    <setting name="Input <#= j #>: Variable" variable="INPUT_<#= j #>_INT_<#= i #>" type="sysvarint" condition="$LAMBDA_COUNT >= <#= i #> and $INPUT_COUNT_<#= i  #> > <#= (j - 1) #> and $INPUT_<#= j #>_TYPE_<#= i #> == 2" />
+    <setting name="Input <#= j #>: Variable" variable="INPUT_<#= j #>_STRING_<#= i #>" type="sysvarstring" condition="$LAMBDA_COUNT >= <#= i #> and $INPUT_COUNT_<#= i  #> > <#= (j - 1) #> and $INPUT_<#= j #>_TYPE_<#= i #> == 3" />
+<#
+  }
+#>
+	</category>
+<#
+}
+#>
+	<category name="Debug Settings" description="Driver debug options" hidden="true">
+		<setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+	</category>
+</configuration>

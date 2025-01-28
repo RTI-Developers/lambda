@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<variables>
+	<category name="%%__NAME_1%%" condition="$LAMBDA_COUNT >= 1">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_1" type="boolean" condition="$RESULT_TYPE_1 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_1" type="integer" condition="$RESULT_TYPE_1 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_1" type="string" condition="$RESULT_TYPE_1 == 3" sample="%%__NAME_1%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_1" type="image" condition="$RESULT_TYPE_1 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_1" type="list" condition="$RESULT_TYPE_1 == 5" />
+		<variable name="Error" sysvar="ERROR_1" type="string" />
+	</category>
+	<category name="%%__NAME_2%%" condition="$LAMBDA_COUNT >= 2">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_2" type="boolean" condition="$RESULT_TYPE_2 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_2" type="integer" condition="$RESULT_TYPE_2 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_2" type="string" condition="$RESULT_TYPE_2 == 3" sample="%%__NAME_2%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_2" type="image" condition="$RESULT_TYPE_2 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_2" type="list" condition="$RESULT_TYPE_2 == 5" />
+		<variable name="Error" sysvar="ERROR_2" type="string" />
+	</category>
+	<category name="%%__NAME_3%%" condition="$LAMBDA_COUNT >= 3">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_3" type="boolean" condition="$RESULT_TYPE_3 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_3" type="integer" condition="$RESULT_TYPE_3 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_3" type="string" condition="$RESULT_TYPE_3 == 3" sample="%%__NAME_3%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_3" type="image" condition="$RESULT_TYPE_3 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_3" type="list" condition="$RESULT_TYPE_3 == 5" />
+		<variable name="Error" sysvar="ERROR_3" type="string" />
+	</category>
+	<category name="%%__NAME_4%%" condition="$LAMBDA_COUNT >= 4">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_4" type="boolean" condition="$RESULT_TYPE_4 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_4" type="integer" condition="$RESULT_TYPE_4 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_4" type="string" condition="$RESULT_TYPE_4 == 3" sample="%%__NAME_4%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_4" type="image" condition="$RESULT_TYPE_4 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_4" type="list" condition="$RESULT_TYPE_4 == 5" />
+		<variable name="Error" sysvar="ERROR_4" type="string" />
+	</category>
+	<category name="%%__NAME_5%%" condition="$LAMBDA_COUNT >= 5">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_5" type="boolean" condition="$RESULT_TYPE_5 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_5" type="integer" condition="$RESULT_TYPE_5 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_5" type="string" condition="$RESULT_TYPE_5 == 3" sample="%%__NAME_5%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_5" type="image" condition="$RESULT_TYPE_5 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_5" type="list" condition="$RESULT_TYPE_5 == 5" />
+		<variable name="Error" sysvar="ERROR_5" type="string" />
+	</category>
+	<category name="%%__NAME_6%%" condition="$LAMBDA_COUNT >= 6">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_6" type="boolean" condition="$RESULT_TYPE_6 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_6" type="integer" condition="$RESULT_TYPE_6 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_6" type="string" condition="$RESULT_TYPE_6 == 3" sample="%%__NAME_6%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_6" type="image" condition="$RESULT_TYPE_6 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_6" type="list" condition="$RESULT_TYPE_6 == 5" />
+		<variable name="Error" sysvar="ERROR_6" type="string" />
+	</category>
+	<category name="%%__NAME_7%%" condition="$LAMBDA_COUNT >= 7">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_7" type="boolean" condition="$RESULT_TYPE_7 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_7" type="integer" condition="$RESULT_TYPE_7 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_7" type="string" condition="$RESULT_TYPE_7 == 3" sample="%%__NAME_7%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_7" type="image" condition="$RESULT_TYPE_7 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_7" type="list" condition="$RESULT_TYPE_7 == 5" />
+		<variable name="Error" sysvar="ERROR_7" type="string" />
+	</category>
+	<category name="%%__NAME_8%%" condition="$LAMBDA_COUNT >= 8">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_8" type="boolean" condition="$RESULT_TYPE_8 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_8" type="integer" condition="$RESULT_TYPE_8 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_8" type="string" condition="$RESULT_TYPE_8 == 3" sample="%%__NAME_8%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_8" type="image" condition="$RESULT_TYPE_8 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_8" type="list" condition="$RESULT_TYPE_8 == 5" />
+		<variable name="Error" sysvar="ERROR_8" type="string" />
+	</category>
+	<category name="%%__NAME_9%%" condition="$LAMBDA_COUNT >= 9">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_9" type="boolean" condition="$RESULT_TYPE_9 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_9" type="integer" condition="$RESULT_TYPE_9 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_9" type="string" condition="$RESULT_TYPE_9 == 3" sample="%%__NAME_9%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_9" type="image" condition="$RESULT_TYPE_9 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_9" type="list" condition="$RESULT_TYPE_9 == 5" />
+		<variable name="Error" sysvar="ERROR_9" type="string" />
+	</category>
+	<category name="%%__NAME_10%%" condition="$LAMBDA_COUNT >= 10">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_10" type="boolean" condition="$RESULT_TYPE_10 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_10" type="integer" condition="$RESULT_TYPE_10 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_10" type="string" condition="$RESULT_TYPE_10 == 3" sample="%%__NAME_10%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_10" type="image" condition="$RESULT_TYPE_10 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_10" type="list" condition="$RESULT_TYPE_10 == 5" />
+		<variable name="Error" sysvar="ERROR_10" type="string" />
+	</category>
+	<category name="%%__NAME_11%%" condition="$LAMBDA_COUNT >= 11">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_11" type="boolean" condition="$RESULT_TYPE_11 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_11" type="integer" condition="$RESULT_TYPE_11 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_11" type="string" condition="$RESULT_TYPE_11 == 3" sample="%%__NAME_11%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_11" type="image" condition="$RESULT_TYPE_11 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_11" type="list" condition="$RESULT_TYPE_11 == 5" />
+		<variable name="Error" sysvar="ERROR_11" type="string" />
+	</category>
+	<category name="%%__NAME_12%%" condition="$LAMBDA_COUNT >= 12">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_12" type="boolean" condition="$RESULT_TYPE_12 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_12" type="integer" condition="$RESULT_TYPE_12 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_12" type="string" condition="$RESULT_TYPE_12 == 3" sample="%%__NAME_12%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_12" type="image" condition="$RESULT_TYPE_12 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_12" type="list" condition="$RESULT_TYPE_12 == 5" />
+		<variable name="Error" sysvar="ERROR_12" type="string" />
+	</category>
+	<category name="%%__NAME_13%%" condition="$LAMBDA_COUNT >= 13">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_13" type="boolean" condition="$RESULT_TYPE_13 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_13" type="integer" condition="$RESULT_TYPE_13 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_13" type="string" condition="$RESULT_TYPE_13 == 3" sample="%%__NAME_13%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_13" type="image" condition="$RESULT_TYPE_13 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_13" type="list" condition="$RESULT_TYPE_13 == 5" />
+		<variable name="Error" sysvar="ERROR_13" type="string" />
+	</category>
+	<category name="%%__NAME_14%%" condition="$LAMBDA_COUNT >= 14">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_14" type="boolean" condition="$RESULT_TYPE_14 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_14" type="integer" condition="$RESULT_TYPE_14 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_14" type="string" condition="$RESULT_TYPE_14 == 3" sample="%%__NAME_14%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_14" type="image" condition="$RESULT_TYPE_14 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_14" type="list" condition="$RESULT_TYPE_14 == 5" />
+		<variable name="Error" sysvar="ERROR_14" type="string" />
+	</category>
+	<category name="%%__NAME_15%%" condition="$LAMBDA_COUNT >= 15">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_15" type="boolean" condition="$RESULT_TYPE_15 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_15" type="integer" condition="$RESULT_TYPE_15 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_15" type="string" condition="$RESULT_TYPE_15 == 3" sample="%%__NAME_15%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_15" type="image" condition="$RESULT_TYPE_15 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_15" type="list" condition="$RESULT_TYPE_15 == 5" />
+		<variable name="Error" sysvar="ERROR_15" type="string" />
+	</category>
+	<category name="%%__NAME_16%%" condition="$LAMBDA_COUNT >= 16">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_16" type="boolean" condition="$RESULT_TYPE_16 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_16" type="integer" condition="$RESULT_TYPE_16 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_16" type="string" condition="$RESULT_TYPE_16 == 3" sample="%%__NAME_16%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_16" type="image" condition="$RESULT_TYPE_16 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_16" type="list" condition="$RESULT_TYPE_16 == 5" />
+		<variable name="Error" sysvar="ERROR_16" type="string" />
+	</category>
+	<category name="%%__NAME_17%%" condition="$LAMBDA_COUNT >= 17">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_17" type="boolean" condition="$RESULT_TYPE_17 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_17" type="integer" condition="$RESULT_TYPE_17 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_17" type="string" condition="$RESULT_TYPE_17 == 3" sample="%%__NAME_17%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_17" type="image" condition="$RESULT_TYPE_17 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_17" type="list" condition="$RESULT_TYPE_17 == 5" />
+		<variable name="Error" sysvar="ERROR_17" type="string" />
+	</category>
+	<category name="%%__NAME_18%%" condition="$LAMBDA_COUNT >= 18">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_18" type="boolean" condition="$RESULT_TYPE_18 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_18" type="integer" condition="$RESULT_TYPE_18 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_18" type="string" condition="$RESULT_TYPE_18 == 3" sample="%%__NAME_18%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_18" type="image" condition="$RESULT_TYPE_18 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_18" type="list" condition="$RESULT_TYPE_18 == 5" />
+		<variable name="Error" sysvar="ERROR_18" type="string" />
+	</category>
+	<category name="%%__NAME_19%%" condition="$LAMBDA_COUNT >= 19">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_19" type="boolean" condition="$RESULT_TYPE_19 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_19" type="integer" condition="$RESULT_TYPE_19 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_19" type="string" condition="$RESULT_TYPE_19 == 3" sample="%%__NAME_19%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_19" type="image" condition="$RESULT_TYPE_19 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_19" type="list" condition="$RESULT_TYPE_19 == 5" />
+		<variable name="Error" sysvar="ERROR_19" type="string" />
+	</category>
+	<category name="%%__NAME_20%%" condition="$LAMBDA_COUNT >= 20">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_20" type="boolean" condition="$RESULT_TYPE_20 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_20" type="integer" condition="$RESULT_TYPE_20 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_20" type="string" condition="$RESULT_TYPE_20 == 3" sample="%%__NAME_20%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_20" type="image" condition="$RESULT_TYPE_20 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_20" type="list" condition="$RESULT_TYPE_20 == 5" />
+		<variable name="Error" sysvar="ERROR_20" type="string" />
+	</category>
+	<category name="%%__NAME_21%%" condition="$LAMBDA_COUNT >= 21">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_21" type="boolean" condition="$RESULT_TYPE_21 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_21" type="integer" condition="$RESULT_TYPE_21 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_21" type="string" condition="$RESULT_TYPE_21 == 3" sample="%%__NAME_21%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_21" type="image" condition="$RESULT_TYPE_21 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_21" type="list" condition="$RESULT_TYPE_21 == 5" />
+		<variable name="Error" sysvar="ERROR_21" type="string" />
+	</category>
+	<category name="%%__NAME_22%%" condition="$LAMBDA_COUNT >= 22">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_22" type="boolean" condition="$RESULT_TYPE_22 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_22" type="integer" condition="$RESULT_TYPE_22 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_22" type="string" condition="$RESULT_TYPE_22 == 3" sample="%%__NAME_22%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_22" type="image" condition="$RESULT_TYPE_22 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_22" type="list" condition="$RESULT_TYPE_22 == 5" />
+		<variable name="Error" sysvar="ERROR_22" type="string" />
+	</category>
+	<category name="%%__NAME_23%%" condition="$LAMBDA_COUNT >= 23">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_23" type="boolean" condition="$RESULT_TYPE_23 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_23" type="integer" condition="$RESULT_TYPE_23 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_23" type="string" condition="$RESULT_TYPE_23 == 3" sample="%%__NAME_23%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_23" type="image" condition="$RESULT_TYPE_23 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_23" type="list" condition="$RESULT_TYPE_23 == 5" />
+		<variable name="Error" sysvar="ERROR_23" type="string" />
+	</category>
+	<category name="%%__NAME_24%%" condition="$LAMBDA_COUNT >= 24">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_24" type="boolean" condition="$RESULT_TYPE_24 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_24" type="integer" condition="$RESULT_TYPE_24 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_24" type="string" condition="$RESULT_TYPE_24 == 3" sample="%%__NAME_24%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_24" type="image" condition="$RESULT_TYPE_24 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_24" type="list" condition="$RESULT_TYPE_24 == 5" />
+		<variable name="Error" sysvar="ERROR_24" type="string" />
+	</category>
+	<category name="%%__NAME_25%%" condition="$LAMBDA_COUNT >= 25">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_25" type="boolean" condition="$RESULT_TYPE_25 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_25" type="integer" condition="$RESULT_TYPE_25 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_25" type="string" condition="$RESULT_TYPE_25 == 3" sample="%%__NAME_25%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_25" type="image" condition="$RESULT_TYPE_25 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_25" type="list" condition="$RESULT_TYPE_25 == 5" />
+		<variable name="Error" sysvar="ERROR_25" type="string" />
+	</category>
+	<category name="%%__NAME_26%%" condition="$LAMBDA_COUNT >= 26">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_26" type="boolean" condition="$RESULT_TYPE_26 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_26" type="integer" condition="$RESULT_TYPE_26 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_26" type="string" condition="$RESULT_TYPE_26 == 3" sample="%%__NAME_26%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_26" type="image" condition="$RESULT_TYPE_26 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_26" type="list" condition="$RESULT_TYPE_26 == 5" />
+		<variable name="Error" sysvar="ERROR_26" type="string" />
+	</category>
+	<category name="%%__NAME_27%%" condition="$LAMBDA_COUNT >= 27">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_27" type="boolean" condition="$RESULT_TYPE_27 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_27" type="integer" condition="$RESULT_TYPE_27 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_27" type="string" condition="$RESULT_TYPE_27 == 3" sample="%%__NAME_27%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_27" type="image" condition="$RESULT_TYPE_27 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_27" type="list" condition="$RESULT_TYPE_27 == 5" />
+		<variable name="Error" sysvar="ERROR_27" type="string" />
+	</category>
+	<category name="%%__NAME_28%%" condition="$LAMBDA_COUNT >= 28">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_28" type="boolean" condition="$RESULT_TYPE_28 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_28" type="integer" condition="$RESULT_TYPE_28 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_28" type="string" condition="$RESULT_TYPE_28 == 3" sample="%%__NAME_28%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_28" type="image" condition="$RESULT_TYPE_28 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_28" type="list" condition="$RESULT_TYPE_28 == 5" />
+		<variable name="Error" sysvar="ERROR_28" type="string" />
+	</category>
+	<category name="%%__NAME_29%%" condition="$LAMBDA_COUNT >= 29">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_29" type="boolean" condition="$RESULT_TYPE_29 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_29" type="integer" condition="$RESULT_TYPE_29 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_29" type="string" condition="$RESULT_TYPE_29 == 3" sample="%%__NAME_29%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_29" type="image" condition="$RESULT_TYPE_29 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_29" type="list" condition="$RESULT_TYPE_29 == 5" />
+		<variable name="Error" sysvar="ERROR_29" type="string" />
+	</category>
+	<category name="%%__NAME_30%%" condition="$LAMBDA_COUNT >= 30">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_30" type="boolean" condition="$RESULT_TYPE_30 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_30" type="integer" condition="$RESULT_TYPE_30 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_30" type="string" condition="$RESULT_TYPE_30 == 3" sample="%%__NAME_30%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_30" type="image" condition="$RESULT_TYPE_30 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_30" type="list" condition="$RESULT_TYPE_30 == 5" />
+		<variable name="Error" sysvar="ERROR_30" type="string" />
+	</category>
+	<category name="%%__NAME_31%%" condition="$LAMBDA_COUNT >= 31">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_31" type="boolean" condition="$RESULT_TYPE_31 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_31" type="integer" condition="$RESULT_TYPE_31 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_31" type="string" condition="$RESULT_TYPE_31 == 3" sample="%%__NAME_31%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_31" type="image" condition="$RESULT_TYPE_31 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_31" type="list" condition="$RESULT_TYPE_31 == 5" />
+		<variable name="Error" sysvar="ERROR_31" type="string" />
+	</category>
+	<category name="%%__NAME_32%%" condition="$LAMBDA_COUNT >= 32">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_32" type="boolean" condition="$RESULT_TYPE_32 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_32" type="integer" condition="$RESULT_TYPE_32 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_32" type="string" condition="$RESULT_TYPE_32 == 3" sample="%%__NAME_32%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_32" type="image" condition="$RESULT_TYPE_32 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_32" type="list" condition="$RESULT_TYPE_32 == 5" />
+		<variable name="Error" sysvar="ERROR_32" type="string" />
+	</category>
+	<category name="%%__NAME_33%%" condition="$LAMBDA_COUNT >= 33">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_33" type="boolean" condition="$RESULT_TYPE_33 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_33" type="integer" condition="$RESULT_TYPE_33 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_33" type="string" condition="$RESULT_TYPE_33 == 3" sample="%%__NAME_33%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_33" type="image" condition="$RESULT_TYPE_33 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_33" type="list" condition="$RESULT_TYPE_33 == 5" />
+		<variable name="Error" sysvar="ERROR_33" type="string" />
+	</category>
+	<category name="%%__NAME_34%%" condition="$LAMBDA_COUNT >= 34">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_34" type="boolean" condition="$RESULT_TYPE_34 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_34" type="integer" condition="$RESULT_TYPE_34 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_34" type="string" condition="$RESULT_TYPE_34 == 3" sample="%%__NAME_34%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_34" type="image" condition="$RESULT_TYPE_34 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_34" type="list" condition="$RESULT_TYPE_34 == 5" />
+		<variable name="Error" sysvar="ERROR_34" type="string" />
+	</category>
+	<category name="%%__NAME_35%%" condition="$LAMBDA_COUNT >= 35">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_35" type="boolean" condition="$RESULT_TYPE_35 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_35" type="integer" condition="$RESULT_TYPE_35 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_35" type="string" condition="$RESULT_TYPE_35 == 3" sample="%%__NAME_35%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_35" type="image" condition="$RESULT_TYPE_35 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_35" type="list" condition="$RESULT_TYPE_35 == 5" />
+		<variable name="Error" sysvar="ERROR_35" type="string" />
+	</category>
+	<category name="%%__NAME_36%%" condition="$LAMBDA_COUNT >= 36">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_36" type="boolean" condition="$RESULT_TYPE_36 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_36" type="integer" condition="$RESULT_TYPE_36 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_36" type="string" condition="$RESULT_TYPE_36 == 3" sample="%%__NAME_36%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_36" type="image" condition="$RESULT_TYPE_36 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_36" type="list" condition="$RESULT_TYPE_36 == 5" />
+		<variable name="Error" sysvar="ERROR_36" type="string" />
+	</category>
+	<category name="%%__NAME_37%%" condition="$LAMBDA_COUNT >= 37">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_37" type="boolean" condition="$RESULT_TYPE_37 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_37" type="integer" condition="$RESULT_TYPE_37 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_37" type="string" condition="$RESULT_TYPE_37 == 3" sample="%%__NAME_37%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_37" type="image" condition="$RESULT_TYPE_37 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_37" type="list" condition="$RESULT_TYPE_37 == 5" />
+		<variable name="Error" sysvar="ERROR_37" type="string" />
+	</category>
+	<category name="%%__NAME_38%%" condition="$LAMBDA_COUNT >= 38">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_38" type="boolean" condition="$RESULT_TYPE_38 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_38" type="integer" condition="$RESULT_TYPE_38 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_38" type="string" condition="$RESULT_TYPE_38 == 3" sample="%%__NAME_38%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_38" type="image" condition="$RESULT_TYPE_38 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_38" type="list" condition="$RESULT_TYPE_38 == 5" />
+		<variable name="Error" sysvar="ERROR_38" type="string" />
+	</category>
+	<category name="%%__NAME_39%%" condition="$LAMBDA_COUNT >= 39">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_39" type="boolean" condition="$RESULT_TYPE_39 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_39" type="integer" condition="$RESULT_TYPE_39 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_39" type="string" condition="$RESULT_TYPE_39 == 3" sample="%%__NAME_39%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_39" type="image" condition="$RESULT_TYPE_39 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_39" type="list" condition="$RESULT_TYPE_39 == 5" />
+		<variable name="Error" sysvar="ERROR_39" type="string" />
+	</category>
+	<category name="%%__NAME_40%%" condition="$LAMBDA_COUNT >= 40">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_40" type="boolean" condition="$RESULT_TYPE_40 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_40" type="integer" condition="$RESULT_TYPE_40 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_40" type="string" condition="$RESULT_TYPE_40 == 3" sample="%%__NAME_40%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_40" type="image" condition="$RESULT_TYPE_40 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_40" type="list" condition="$RESULT_TYPE_40 == 5" />
+		<variable name="Error" sysvar="ERROR_40" type="string" />
+	</category>
+	<category name="%%__NAME_41%%" condition="$LAMBDA_COUNT >= 41">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_41" type="boolean" condition="$RESULT_TYPE_41 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_41" type="integer" condition="$RESULT_TYPE_41 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_41" type="string" condition="$RESULT_TYPE_41 == 3" sample="%%__NAME_41%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_41" type="image" condition="$RESULT_TYPE_41 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_41" type="list" condition="$RESULT_TYPE_41 == 5" />
+		<variable name="Error" sysvar="ERROR_41" type="string" />
+	</category>
+	<category name="%%__NAME_42%%" condition="$LAMBDA_COUNT >= 42">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_42" type="boolean" condition="$RESULT_TYPE_42 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_42" type="integer" condition="$RESULT_TYPE_42 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_42" type="string" condition="$RESULT_TYPE_42 == 3" sample="%%__NAME_42%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_42" type="image" condition="$RESULT_TYPE_42 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_42" type="list" condition="$RESULT_TYPE_42 == 5" />
+		<variable name="Error" sysvar="ERROR_42" type="string" />
+	</category>
+	<category name="%%__NAME_43%%" condition="$LAMBDA_COUNT >= 43">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_43" type="boolean" condition="$RESULT_TYPE_43 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_43" type="integer" condition="$RESULT_TYPE_43 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_43" type="string" condition="$RESULT_TYPE_43 == 3" sample="%%__NAME_43%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_43" type="image" condition="$RESULT_TYPE_43 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_43" type="list" condition="$RESULT_TYPE_43 == 5" />
+		<variable name="Error" sysvar="ERROR_43" type="string" />
+	</category>
+	<category name="%%__NAME_44%%" condition="$LAMBDA_COUNT >= 44">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_44" type="boolean" condition="$RESULT_TYPE_44 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_44" type="integer" condition="$RESULT_TYPE_44 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_44" type="string" condition="$RESULT_TYPE_44 == 3" sample="%%__NAME_44%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_44" type="image" condition="$RESULT_TYPE_44 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_44" type="list" condition="$RESULT_TYPE_44 == 5" />
+		<variable name="Error" sysvar="ERROR_44" type="string" />
+	</category>
+	<category name="%%__NAME_45%%" condition="$LAMBDA_COUNT >= 45">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_45" type="boolean" condition="$RESULT_TYPE_45 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_45" type="integer" condition="$RESULT_TYPE_45 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_45" type="string" condition="$RESULT_TYPE_45 == 3" sample="%%__NAME_45%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_45" type="image" condition="$RESULT_TYPE_45 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_45" type="list" condition="$RESULT_TYPE_45 == 5" />
+		<variable name="Error" sysvar="ERROR_45" type="string" />
+	</category>
+	<category name="%%__NAME_46%%" condition="$LAMBDA_COUNT >= 46">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_46" type="boolean" condition="$RESULT_TYPE_46 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_46" type="integer" condition="$RESULT_TYPE_46 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_46" type="string" condition="$RESULT_TYPE_46 == 3" sample="%%__NAME_46%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_46" type="image" condition="$RESULT_TYPE_46 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_46" type="list" condition="$RESULT_TYPE_46 == 5" />
+		<variable name="Error" sysvar="ERROR_46" type="string" />
+	</category>
+	<category name="%%__NAME_47%%" condition="$LAMBDA_COUNT >= 47">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_47" type="boolean" condition="$RESULT_TYPE_47 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_47" type="integer" condition="$RESULT_TYPE_47 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_47" type="string" condition="$RESULT_TYPE_47 == 3" sample="%%__NAME_47%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_47" type="image" condition="$RESULT_TYPE_47 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_47" type="list" condition="$RESULT_TYPE_47 == 5" />
+		<variable name="Error" sysvar="ERROR_47" type="string" />
+	</category>
+	<category name="%%__NAME_48%%" condition="$LAMBDA_COUNT >= 48">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_48" type="boolean" condition="$RESULT_TYPE_48 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_48" type="integer" condition="$RESULT_TYPE_48 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_48" type="string" condition="$RESULT_TYPE_48 == 3" sample="%%__NAME_48%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_48" type="image" condition="$RESULT_TYPE_48 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_48" type="list" condition="$RESULT_TYPE_48 == 5" />
+		<variable name="Error" sysvar="ERROR_48" type="string" />
+	</category>
+	<category name="%%__NAME_49%%" condition="$LAMBDA_COUNT >= 49">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_49" type="boolean" condition="$RESULT_TYPE_49 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_49" type="integer" condition="$RESULT_TYPE_49 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_49" type="string" condition="$RESULT_TYPE_49 == 3" sample="%%__NAME_49%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_49" type="image" condition="$RESULT_TYPE_49 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_49" type="list" condition="$RESULT_TYPE_49 == 5" />
+		<variable name="Error" sysvar="ERROR_49" type="string" />
+	</category>
+	<category name="%%__NAME_50%%" condition="$LAMBDA_COUNT >= 50">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_50" type="boolean" condition="$RESULT_TYPE_50 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_50" type="integer" condition="$RESULT_TYPE_50 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_50" type="string" condition="$RESULT_TYPE_50 == 3" sample="%%__NAME_50%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_50" type="image" condition="$RESULT_TYPE_50 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_50" type="list" condition="$RESULT_TYPE_50 == 5" />
+		<variable name="Error" sysvar="ERROR_50" type="string" />
+	</category>
+	<category name="%%__NAME_51%%" condition="$LAMBDA_COUNT >= 51">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_51" type="boolean" condition="$RESULT_TYPE_51 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_51" type="integer" condition="$RESULT_TYPE_51 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_51" type="string" condition="$RESULT_TYPE_51 == 3" sample="%%__NAME_51%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_51" type="image" condition="$RESULT_TYPE_51 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_51" type="list" condition="$RESULT_TYPE_51 == 5" />
+		<variable name="Error" sysvar="ERROR_51" type="string" />
+	</category>
+	<category name="%%__NAME_52%%" condition="$LAMBDA_COUNT >= 52">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_52" type="boolean" condition="$RESULT_TYPE_52 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_52" type="integer" condition="$RESULT_TYPE_52 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_52" type="string" condition="$RESULT_TYPE_52 == 3" sample="%%__NAME_52%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_52" type="image" condition="$RESULT_TYPE_52 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_52" type="list" condition="$RESULT_TYPE_52 == 5" />
+		<variable name="Error" sysvar="ERROR_52" type="string" />
+	</category>
+	<category name="%%__NAME_53%%" condition="$LAMBDA_COUNT >= 53">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_53" type="boolean" condition="$RESULT_TYPE_53 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_53" type="integer" condition="$RESULT_TYPE_53 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_53" type="string" condition="$RESULT_TYPE_53 == 3" sample="%%__NAME_53%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_53" type="image" condition="$RESULT_TYPE_53 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_53" type="list" condition="$RESULT_TYPE_53 == 5" />
+		<variable name="Error" sysvar="ERROR_53" type="string" />
+	</category>
+	<category name="%%__NAME_54%%" condition="$LAMBDA_COUNT >= 54">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_54" type="boolean" condition="$RESULT_TYPE_54 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_54" type="integer" condition="$RESULT_TYPE_54 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_54" type="string" condition="$RESULT_TYPE_54 == 3" sample="%%__NAME_54%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_54" type="image" condition="$RESULT_TYPE_54 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_54" type="list" condition="$RESULT_TYPE_54 == 5" />
+		<variable name="Error" sysvar="ERROR_54" type="string" />
+	</category>
+	<category name="%%__NAME_55%%" condition="$LAMBDA_COUNT >= 55">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_55" type="boolean" condition="$RESULT_TYPE_55 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_55" type="integer" condition="$RESULT_TYPE_55 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_55" type="string" condition="$RESULT_TYPE_55 == 3" sample="%%__NAME_55%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_55" type="image" condition="$RESULT_TYPE_55 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_55" type="list" condition="$RESULT_TYPE_55 == 5" />
+		<variable name="Error" sysvar="ERROR_55" type="string" />
+	</category>
+	<category name="%%__NAME_56%%" condition="$LAMBDA_COUNT >= 56">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_56" type="boolean" condition="$RESULT_TYPE_56 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_56" type="integer" condition="$RESULT_TYPE_56 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_56" type="string" condition="$RESULT_TYPE_56 == 3" sample="%%__NAME_56%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_56" type="image" condition="$RESULT_TYPE_56 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_56" type="list" condition="$RESULT_TYPE_56 == 5" />
+		<variable name="Error" sysvar="ERROR_56" type="string" />
+	</category>
+	<category name="%%__NAME_57%%" condition="$LAMBDA_COUNT >= 57">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_57" type="boolean" condition="$RESULT_TYPE_57 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_57" type="integer" condition="$RESULT_TYPE_57 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_57" type="string" condition="$RESULT_TYPE_57 == 3" sample="%%__NAME_57%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_57" type="image" condition="$RESULT_TYPE_57 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_57" type="list" condition="$RESULT_TYPE_57 == 5" />
+		<variable name="Error" sysvar="ERROR_57" type="string" />
+	</category>
+	<category name="%%__NAME_58%%" condition="$LAMBDA_COUNT >= 58">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_58" type="boolean" condition="$RESULT_TYPE_58 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_58" type="integer" condition="$RESULT_TYPE_58 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_58" type="string" condition="$RESULT_TYPE_58 == 3" sample="%%__NAME_58%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_58" type="image" condition="$RESULT_TYPE_58 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_58" type="list" condition="$RESULT_TYPE_58 == 5" />
+		<variable name="Error" sysvar="ERROR_58" type="string" />
+	</category>
+	<category name="%%__NAME_59%%" condition="$LAMBDA_COUNT >= 59">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_59" type="boolean" condition="$RESULT_TYPE_59 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_59" type="integer" condition="$RESULT_TYPE_59 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_59" type="string" condition="$RESULT_TYPE_59 == 3" sample="%%__NAME_59%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_59" type="image" condition="$RESULT_TYPE_59 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_59" type="list" condition="$RESULT_TYPE_59 == 5" />
+		<variable name="Error" sysvar="ERROR_59" type="string" />
+	</category>
+	<category name="%%__NAME_60%%" condition="$LAMBDA_COUNT >= 60">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_60" type="boolean" condition="$RESULT_TYPE_60 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_60" type="integer" condition="$RESULT_TYPE_60 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_60" type="string" condition="$RESULT_TYPE_60 == 3" sample="%%__NAME_60%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_60" type="image" condition="$RESULT_TYPE_60 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_60" type="list" condition="$RESULT_TYPE_60 == 5" />
+		<variable name="Error" sysvar="ERROR_60" type="string" />
+	</category>
+	<category name="%%__NAME_61%%" condition="$LAMBDA_COUNT >= 61">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_61" type="boolean" condition="$RESULT_TYPE_61 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_61" type="integer" condition="$RESULT_TYPE_61 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_61" type="string" condition="$RESULT_TYPE_61 == 3" sample="%%__NAME_61%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_61" type="image" condition="$RESULT_TYPE_61 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_61" type="list" condition="$RESULT_TYPE_61 == 5" />
+		<variable name="Error" sysvar="ERROR_61" type="string" />
+	</category>
+	<category name="%%__NAME_62%%" condition="$LAMBDA_COUNT >= 62">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_62" type="boolean" condition="$RESULT_TYPE_62 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_62" type="integer" condition="$RESULT_TYPE_62 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_62" type="string" condition="$RESULT_TYPE_62 == 3" sample="%%__NAME_62%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_62" type="image" condition="$RESULT_TYPE_62 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_62" type="list" condition="$RESULT_TYPE_62 == 5" />
+		<variable name="Error" sysvar="ERROR_62" type="string" />
+	</category>
+	<category name="%%__NAME_63%%" condition="$LAMBDA_COUNT >= 63">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_63" type="boolean" condition="$RESULT_TYPE_63 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_63" type="integer" condition="$RESULT_TYPE_63 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_63" type="string" condition="$RESULT_TYPE_63 == 3" sample="%%__NAME_63%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_63" type="image" condition="$RESULT_TYPE_63 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_63" type="list" condition="$RESULT_TYPE_63 == 5" />
+		<variable name="Error" sysvar="ERROR_63" type="string" />
+	</category>
+	<category name="%%__NAME_64%%" condition="$LAMBDA_COUNT >= 64">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_64" type="boolean" condition="$RESULT_TYPE_64 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_64" type="integer" condition="$RESULT_TYPE_64 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_64" type="string" condition="$RESULT_TYPE_64 == 3" sample="%%__NAME_64%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_64" type="image" condition="$RESULT_TYPE_64 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_64" type="list" condition="$RESULT_TYPE_64 == 5" />
+		<variable name="Error" sysvar="ERROR_64" type="string" />
+	</category>
+	<category name="%%__NAME_65%%" condition="$LAMBDA_COUNT >= 65">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_65" type="boolean" condition="$RESULT_TYPE_65 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_65" type="integer" condition="$RESULT_TYPE_65 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_65" type="string" condition="$RESULT_TYPE_65 == 3" sample="%%__NAME_65%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_65" type="image" condition="$RESULT_TYPE_65 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_65" type="list" condition="$RESULT_TYPE_65 == 5" />
+		<variable name="Error" sysvar="ERROR_65" type="string" />
+	</category>
+	<category name="%%__NAME_66%%" condition="$LAMBDA_COUNT >= 66">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_66" type="boolean" condition="$RESULT_TYPE_66 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_66" type="integer" condition="$RESULT_TYPE_66 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_66" type="string" condition="$RESULT_TYPE_66 == 3" sample="%%__NAME_66%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_66" type="image" condition="$RESULT_TYPE_66 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_66" type="list" condition="$RESULT_TYPE_66 == 5" />
+		<variable name="Error" sysvar="ERROR_66" type="string" />
+	</category>
+	<category name="%%__NAME_67%%" condition="$LAMBDA_COUNT >= 67">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_67" type="boolean" condition="$RESULT_TYPE_67 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_67" type="integer" condition="$RESULT_TYPE_67 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_67" type="string" condition="$RESULT_TYPE_67 == 3" sample="%%__NAME_67%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_67" type="image" condition="$RESULT_TYPE_67 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_67" type="list" condition="$RESULT_TYPE_67 == 5" />
+		<variable name="Error" sysvar="ERROR_67" type="string" />
+	</category>
+	<category name="%%__NAME_68%%" condition="$LAMBDA_COUNT >= 68">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_68" type="boolean" condition="$RESULT_TYPE_68 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_68" type="integer" condition="$RESULT_TYPE_68 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_68" type="string" condition="$RESULT_TYPE_68 == 3" sample="%%__NAME_68%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_68" type="image" condition="$RESULT_TYPE_68 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_68" type="list" condition="$RESULT_TYPE_68 == 5" />
+		<variable name="Error" sysvar="ERROR_68" type="string" />
+	</category>
+	<category name="%%__NAME_69%%" condition="$LAMBDA_COUNT >= 69">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_69" type="boolean" condition="$RESULT_TYPE_69 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_69" type="integer" condition="$RESULT_TYPE_69 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_69" type="string" condition="$RESULT_TYPE_69 == 3" sample="%%__NAME_69%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_69" type="image" condition="$RESULT_TYPE_69 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_69" type="list" condition="$RESULT_TYPE_69 == 5" />
+		<variable name="Error" sysvar="ERROR_69" type="string" />
+	</category>
+	<category name="%%__NAME_70%%" condition="$LAMBDA_COUNT >= 70">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_70" type="boolean" condition="$RESULT_TYPE_70 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_70" type="integer" condition="$RESULT_TYPE_70 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_70" type="string" condition="$RESULT_TYPE_70 == 3" sample="%%__NAME_70%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_70" type="image" condition="$RESULT_TYPE_70 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_70" type="list" condition="$RESULT_TYPE_70 == 5" />
+		<variable name="Error" sysvar="ERROR_70" type="string" />
+	</category>
+	<category name="%%__NAME_71%%" condition="$LAMBDA_COUNT >= 71">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_71" type="boolean" condition="$RESULT_TYPE_71 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_71" type="integer" condition="$RESULT_TYPE_71 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_71" type="string" condition="$RESULT_TYPE_71 == 3" sample="%%__NAME_71%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_71" type="image" condition="$RESULT_TYPE_71 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_71" type="list" condition="$RESULT_TYPE_71 == 5" />
+		<variable name="Error" sysvar="ERROR_71" type="string" />
+	</category>
+	<category name="%%__NAME_72%%" condition="$LAMBDA_COUNT >= 72">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_72" type="boolean" condition="$RESULT_TYPE_72 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_72" type="integer" condition="$RESULT_TYPE_72 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_72" type="string" condition="$RESULT_TYPE_72 == 3" sample="%%__NAME_72%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_72" type="image" condition="$RESULT_TYPE_72 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_72" type="list" condition="$RESULT_TYPE_72 == 5" />
+		<variable name="Error" sysvar="ERROR_72" type="string" />
+	</category>
+	<category name="%%__NAME_73%%" condition="$LAMBDA_COUNT >= 73">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_73" type="boolean" condition="$RESULT_TYPE_73 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_73" type="integer" condition="$RESULT_TYPE_73 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_73" type="string" condition="$RESULT_TYPE_73 == 3" sample="%%__NAME_73%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_73" type="image" condition="$RESULT_TYPE_73 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_73" type="list" condition="$RESULT_TYPE_73 == 5" />
+		<variable name="Error" sysvar="ERROR_73" type="string" />
+	</category>
+	<category name="%%__NAME_74%%" condition="$LAMBDA_COUNT >= 74">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_74" type="boolean" condition="$RESULT_TYPE_74 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_74" type="integer" condition="$RESULT_TYPE_74 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_74" type="string" condition="$RESULT_TYPE_74 == 3" sample="%%__NAME_74%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_74" type="image" condition="$RESULT_TYPE_74 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_74" type="list" condition="$RESULT_TYPE_74 == 5" />
+		<variable name="Error" sysvar="ERROR_74" type="string" />
+	</category>
+	<category name="%%__NAME_75%%" condition="$LAMBDA_COUNT >= 75">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_75" type="boolean" condition="$RESULT_TYPE_75 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_75" type="integer" condition="$RESULT_TYPE_75 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_75" type="string" condition="$RESULT_TYPE_75 == 3" sample="%%__NAME_75%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_75" type="image" condition="$RESULT_TYPE_75 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_75" type="list" condition="$RESULT_TYPE_75 == 5" />
+		<variable name="Error" sysvar="ERROR_75" type="string" />
+	</category>
+	<category name="%%__NAME_76%%" condition="$LAMBDA_COUNT >= 76">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_76" type="boolean" condition="$RESULT_TYPE_76 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_76" type="integer" condition="$RESULT_TYPE_76 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_76" type="string" condition="$RESULT_TYPE_76 == 3" sample="%%__NAME_76%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_76" type="image" condition="$RESULT_TYPE_76 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_76" type="list" condition="$RESULT_TYPE_76 == 5" />
+		<variable name="Error" sysvar="ERROR_76" type="string" />
+	</category>
+	<category name="%%__NAME_77%%" condition="$LAMBDA_COUNT >= 77">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_77" type="boolean" condition="$RESULT_TYPE_77 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_77" type="integer" condition="$RESULT_TYPE_77 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_77" type="string" condition="$RESULT_TYPE_77 == 3" sample="%%__NAME_77%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_77" type="image" condition="$RESULT_TYPE_77 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_77" type="list" condition="$RESULT_TYPE_77 == 5" />
+		<variable name="Error" sysvar="ERROR_77" type="string" />
+	</category>
+	<category name="%%__NAME_78%%" condition="$LAMBDA_COUNT >= 78">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_78" type="boolean" condition="$RESULT_TYPE_78 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_78" type="integer" condition="$RESULT_TYPE_78 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_78" type="string" condition="$RESULT_TYPE_78 == 3" sample="%%__NAME_78%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_78" type="image" condition="$RESULT_TYPE_78 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_78" type="list" condition="$RESULT_TYPE_78 == 5" />
+		<variable name="Error" sysvar="ERROR_78" type="string" />
+	</category>
+	<category name="%%__NAME_79%%" condition="$LAMBDA_COUNT >= 79">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_79" type="boolean" condition="$RESULT_TYPE_79 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_79" type="integer" condition="$RESULT_TYPE_79 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_79" type="string" condition="$RESULT_TYPE_79 == 3" sample="%%__NAME_79%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_79" type="image" condition="$RESULT_TYPE_79 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_79" type="list" condition="$RESULT_TYPE_79 == 5" />
+		<variable name="Error" sysvar="ERROR_79" type="string" />
+	</category>
+	<category name="%%__NAME_80%%" condition="$LAMBDA_COUNT >= 80">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_80" type="boolean" condition="$RESULT_TYPE_80 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_80" type="integer" condition="$RESULT_TYPE_80 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_80" type="string" condition="$RESULT_TYPE_80 == 3" sample="%%__NAME_80%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_80" type="image" condition="$RESULT_TYPE_80 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_80" type="list" condition="$RESULT_TYPE_80 == 5" />
+		<variable name="Error" sysvar="ERROR_80" type="string" />
+	</category>
+	<category name="%%__NAME_81%%" condition="$LAMBDA_COUNT >= 81">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_81" type="boolean" condition="$RESULT_TYPE_81 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_81" type="integer" condition="$RESULT_TYPE_81 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_81" type="string" condition="$RESULT_TYPE_81 == 3" sample="%%__NAME_81%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_81" type="image" condition="$RESULT_TYPE_81 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_81" type="list" condition="$RESULT_TYPE_81 == 5" />
+		<variable name="Error" sysvar="ERROR_81" type="string" />
+	</category>
+	<category name="%%__NAME_82%%" condition="$LAMBDA_COUNT >= 82">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_82" type="boolean" condition="$RESULT_TYPE_82 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_82" type="integer" condition="$RESULT_TYPE_82 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_82" type="string" condition="$RESULT_TYPE_82 == 3" sample="%%__NAME_82%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_82" type="image" condition="$RESULT_TYPE_82 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_82" type="list" condition="$RESULT_TYPE_82 == 5" />
+		<variable name="Error" sysvar="ERROR_82" type="string" />
+	</category>
+	<category name="%%__NAME_83%%" condition="$LAMBDA_COUNT >= 83">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_83" type="boolean" condition="$RESULT_TYPE_83 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_83" type="integer" condition="$RESULT_TYPE_83 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_83" type="string" condition="$RESULT_TYPE_83 == 3" sample="%%__NAME_83%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_83" type="image" condition="$RESULT_TYPE_83 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_83" type="list" condition="$RESULT_TYPE_83 == 5" />
+		<variable name="Error" sysvar="ERROR_83" type="string" />
+	</category>
+	<category name="%%__NAME_84%%" condition="$LAMBDA_COUNT >= 84">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_84" type="boolean" condition="$RESULT_TYPE_84 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_84" type="integer" condition="$RESULT_TYPE_84 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_84" type="string" condition="$RESULT_TYPE_84 == 3" sample="%%__NAME_84%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_84" type="image" condition="$RESULT_TYPE_84 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_84" type="list" condition="$RESULT_TYPE_84 == 5" />
+		<variable name="Error" sysvar="ERROR_84" type="string" />
+	</category>
+	<category name="%%__NAME_85%%" condition="$LAMBDA_COUNT >= 85">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_85" type="boolean" condition="$RESULT_TYPE_85 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_85" type="integer" condition="$RESULT_TYPE_85 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_85" type="string" condition="$RESULT_TYPE_85 == 3" sample="%%__NAME_85%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_85" type="image" condition="$RESULT_TYPE_85 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_85" type="list" condition="$RESULT_TYPE_85 == 5" />
+		<variable name="Error" sysvar="ERROR_85" type="string" />
+	</category>
+	<category name="%%__NAME_86%%" condition="$LAMBDA_COUNT >= 86">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_86" type="boolean" condition="$RESULT_TYPE_86 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_86" type="integer" condition="$RESULT_TYPE_86 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_86" type="string" condition="$RESULT_TYPE_86 == 3" sample="%%__NAME_86%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_86" type="image" condition="$RESULT_TYPE_86 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_86" type="list" condition="$RESULT_TYPE_86 == 5" />
+		<variable name="Error" sysvar="ERROR_86" type="string" />
+	</category>
+	<category name="%%__NAME_87%%" condition="$LAMBDA_COUNT >= 87">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_87" type="boolean" condition="$RESULT_TYPE_87 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_87" type="integer" condition="$RESULT_TYPE_87 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_87" type="string" condition="$RESULT_TYPE_87 == 3" sample="%%__NAME_87%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_87" type="image" condition="$RESULT_TYPE_87 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_87" type="list" condition="$RESULT_TYPE_87 == 5" />
+		<variable name="Error" sysvar="ERROR_87" type="string" />
+	</category>
+	<category name="%%__NAME_88%%" condition="$LAMBDA_COUNT >= 88">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_88" type="boolean" condition="$RESULT_TYPE_88 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_88" type="integer" condition="$RESULT_TYPE_88 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_88" type="string" condition="$RESULT_TYPE_88 == 3" sample="%%__NAME_88%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_88" type="image" condition="$RESULT_TYPE_88 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_88" type="list" condition="$RESULT_TYPE_88 == 5" />
+		<variable name="Error" sysvar="ERROR_88" type="string" />
+	</category>
+	<category name="%%__NAME_89%%" condition="$LAMBDA_COUNT >= 89">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_89" type="boolean" condition="$RESULT_TYPE_89 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_89" type="integer" condition="$RESULT_TYPE_89 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_89" type="string" condition="$RESULT_TYPE_89 == 3" sample="%%__NAME_89%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_89" type="image" condition="$RESULT_TYPE_89 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_89" type="list" condition="$RESULT_TYPE_89 == 5" />
+		<variable name="Error" sysvar="ERROR_89" type="string" />
+	</category>
+	<category name="%%__NAME_90%%" condition="$LAMBDA_COUNT >= 90">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_90" type="boolean" condition="$RESULT_TYPE_90 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_90" type="integer" condition="$RESULT_TYPE_90 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_90" type="string" condition="$RESULT_TYPE_90 == 3" sample="%%__NAME_90%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_90" type="image" condition="$RESULT_TYPE_90 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_90" type="list" condition="$RESULT_TYPE_90 == 5" />
+		<variable name="Error" sysvar="ERROR_90" type="string" />
+	</category>
+	<category name="%%__NAME_91%%" condition="$LAMBDA_COUNT >= 91">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_91" type="boolean" condition="$RESULT_TYPE_91 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_91" type="integer" condition="$RESULT_TYPE_91 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_91" type="string" condition="$RESULT_TYPE_91 == 3" sample="%%__NAME_91%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_91" type="image" condition="$RESULT_TYPE_91 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_91" type="list" condition="$RESULT_TYPE_91 == 5" />
+		<variable name="Error" sysvar="ERROR_91" type="string" />
+	</category>
+	<category name="%%__NAME_92%%" condition="$LAMBDA_COUNT >= 92">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_92" type="boolean" condition="$RESULT_TYPE_92 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_92" type="integer" condition="$RESULT_TYPE_92 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_92" type="string" condition="$RESULT_TYPE_92 == 3" sample="%%__NAME_92%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_92" type="image" condition="$RESULT_TYPE_92 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_92" type="list" condition="$RESULT_TYPE_92 == 5" />
+		<variable name="Error" sysvar="ERROR_92" type="string" />
+	</category>
+	<category name="%%__NAME_93%%" condition="$LAMBDA_COUNT >= 93">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_93" type="boolean" condition="$RESULT_TYPE_93 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_93" type="integer" condition="$RESULT_TYPE_93 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_93" type="string" condition="$RESULT_TYPE_93 == 3" sample="%%__NAME_93%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_93" type="image" condition="$RESULT_TYPE_93 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_93" type="list" condition="$RESULT_TYPE_93 == 5" />
+		<variable name="Error" sysvar="ERROR_93" type="string" />
+	</category>
+	<category name="%%__NAME_94%%" condition="$LAMBDA_COUNT >= 94">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_94" type="boolean" condition="$RESULT_TYPE_94 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_94" type="integer" condition="$RESULT_TYPE_94 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_94" type="string" condition="$RESULT_TYPE_94 == 3" sample="%%__NAME_94%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_94" type="image" condition="$RESULT_TYPE_94 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_94" type="list" condition="$RESULT_TYPE_94 == 5" />
+		<variable name="Error" sysvar="ERROR_94" type="string" />
+	</category>
+	<category name="%%__NAME_95%%" condition="$LAMBDA_COUNT >= 95">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_95" type="boolean" condition="$RESULT_TYPE_95 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_95" type="integer" condition="$RESULT_TYPE_95 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_95" type="string" condition="$RESULT_TYPE_95 == 3" sample="%%__NAME_95%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_95" type="image" condition="$RESULT_TYPE_95 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_95" type="list" condition="$RESULT_TYPE_95 == 5" />
+		<variable name="Error" sysvar="ERROR_95" type="string" />
+	</category>
+	<category name="%%__NAME_96%%" condition="$LAMBDA_COUNT >= 96">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_96" type="boolean" condition="$RESULT_TYPE_96 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_96" type="integer" condition="$RESULT_TYPE_96 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_96" type="string" condition="$RESULT_TYPE_96 == 3" sample="%%__NAME_96%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_96" type="image" condition="$RESULT_TYPE_96 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_96" type="list" condition="$RESULT_TYPE_96 == 5" />
+		<variable name="Error" sysvar="ERROR_96" type="string" />
+	</category>
+	<category name="%%__NAME_97%%" condition="$LAMBDA_COUNT >= 97">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_97" type="boolean" condition="$RESULT_TYPE_97 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_97" type="integer" condition="$RESULT_TYPE_97 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_97" type="string" condition="$RESULT_TYPE_97 == 3" sample="%%__NAME_97%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_97" type="image" condition="$RESULT_TYPE_97 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_97" type="list" condition="$RESULT_TYPE_97 == 5" />
+		<variable name="Error" sysvar="ERROR_97" type="string" />
+	</category>
+	<category name="%%__NAME_98%%" condition="$LAMBDA_COUNT >= 98">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_98" type="boolean" condition="$RESULT_TYPE_98 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_98" type="integer" condition="$RESULT_TYPE_98 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_98" type="string" condition="$RESULT_TYPE_98 == 3" sample="%%__NAME_98%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_98" type="image" condition="$RESULT_TYPE_98 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_98" type="list" condition="$RESULT_TYPE_98 == 5" />
+		<variable name="Error" sysvar="ERROR_98" type="string" />
+	</category>
+	<category name="%%__NAME_99%%" condition="$LAMBDA_COUNT >= 99">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_99" type="boolean" condition="$RESULT_TYPE_99 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_99" type="integer" condition="$RESULT_TYPE_99 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_99" type="string" condition="$RESULT_TYPE_99 == 3" sample="%%__NAME_99%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_99" type="image" condition="$RESULT_TYPE_99 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_99" type="list" condition="$RESULT_TYPE_99 == 5" />
+		<variable name="Error" sysvar="ERROR_99" type="string" />
+	</category>
+	<category name="%%__NAME_100%%" condition="$LAMBDA_COUNT >= 100">
+		<variable name="Bool Result" sysvar="RESULT_BOOL_100" type="boolean" condition="$RESULT_TYPE_100 == 1" />
+		<variable name="Integer Result" sysvar="RESULT_INT_100" type="integer" condition="$RESULT_TYPE_100 == 2" />
+		<variable name="String Result" sysvar="RESULT_STRING_100" type="string" condition="$RESULT_TYPE_100 == 3" sample="%%__NAME_100%%" />
+		<variable name="Image Result" sysvar="RESULT_IMAGE_100" type="image" condition="$RESULT_TYPE_100 == 4" />
+		<variable name="List Result" sysvar="RESULT_LIST_100" type="list" condition="$RESULT_TYPE_100 == 5" />
+		<variable name="Error" sysvar="ERROR_100" type="string" />
+	</category>
+</variables>

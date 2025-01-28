@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<driverManifest>
+	<driver
+		id="{89fb5533-c64b-4ad6-8846-3c0236892566}"
+		name="Lambda"
+		author="Noesis Labs LLC"
+		copyright="Copyright 2021 - Noesis Labs LLC"
+		deviceManufacturer=""
+		deviceModel=""
+		driverVersion="2.3"
+		minimumSoftwareVersion="9.0"
+		processorType="XP-8"
+		configSettingsStream="ConfigSettings.xml"
+		systemVariablesStream="SystemVariables.xml"
+		systemFunctionsStream="SystemFunctions.xml"
+		systemEventsStream="SystemEvents.xml"
+		helpTextStream="instructions.rtf"
+	>
+	<processorScript stream="index.js" />
+	<package>
+    	<output filename="Lambda" public="true"/>
+    </package>
+	</driver>
+</driverManifest>
