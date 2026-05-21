@@ -7,7 +7,7 @@
 		copyright="Copyright 2021 - Noesis Labs LLC"
 		deviceManufacturer=""
 		deviceModel=""
-		driverVersion="2.3"
+		driverVersion="2.4"
 		minimumSoftwareVersion="9.0"
 		processorType="XP-8"
 		configSettingsStream="ConfigSettings.xml"
