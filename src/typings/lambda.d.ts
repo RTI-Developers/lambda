@@ -4,5 +4,6 @@ interface LambdaContext {
     inputCount: number,
     inputIds: number[],
     lastResult: any | null,
-    resultType: number
+    resultType: number,
+    useAutoEval: boolean
 }

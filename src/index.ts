@@ -3,7 +3,7 @@
 
 System.Print("Lambda: Initializing Lambda Driver\r\n");
 const g_debug = Config.Get("DebugTrace") == "true";
-let g_lambda_contexts;
+let g_lambda_contexts: LambdaContext[];
 
 function init(): void {
 	SystemVars.OnSysVarChangeFunc = onSysVarChange;
@@ -42,13 +42,13 @@ function init(): void {
 		}
 
 		g_lambda_contexts[lambdaIndex] = {
-			useAutoEval: Config.Get("USE_AUTO_EVAL_" + (lambdaIndex + 1)) == 'true',
 			expression: Config.Get("EXPRESSION_" + (lambdaIndex + 1)),
 			index: lambdaIndex + 1,
 			inputCount: inputCount,
 			inputIds: inputIds,
 			lastResult: null,
 			resultType: parseInt(Config.Get("RESULT_TYPE_" + (lambdaIndex + 1)), 10),
+			useAutoEval: Config.Get("USE_AUTO_EVAL_" + (lambdaIndex + 1)) == 'true',
 		}
 
 		evaluate(g_lambda_contexts[lambdaIndex]);
@@ -61,26 +61,26 @@ function evaluateIndex(lambdaContextIndex: number): void {
 
 function evaluate(lambdaContext: LambdaContext): void {
 	try {
-		let x1;
-		let x2;
-		let x3;
-		let x4;
-		let x5;
-		let x6;
-		let x7;
-		let x8;
-		let x9;
-		let x10;
-		let x11;
-		let x12;
-		let x13;
-		let x14;
-		let x15;
-		let x16;
-		let x17;
-		let x18;
-		let x19;
-		let x20;
+		let x1: any;
+		let x2: any;
+		let x3: any;
+		let x4: any;
+		let x5: any;
+		let x6: any;
+		let x7: any;
+		let x8: any;
+		let x9: any;
+		let x10: any;
+		let x11: any;
+		let x12: any;
+		let x13: any;
+		let x14: any;
+		let x15: any;
+		let x16: any;
+		let x17: any;
+		let x18: any;
+		let x19: any;
+		let x20: any;
 		if (lambdaContext.inputCount > 0) { x1 = SystemVars.Read(lambdaContext.inputIds[0]); }
 		if (lambdaContext.inputCount > 1) { x2 = SystemVars.Read(lambdaContext.inputIds[1]); }
 		if (lambdaContext.inputCount > 2) { x3 = SystemVars.Read(lambdaContext.inputIds[2]); }
@@ -174,7 +174,7 @@ function evaluate(lambdaContext: LambdaContext): void {
 					SystemVars.Write('RESULT_IMAGE_' + lambdaContext.index, result, "IMGURL");
 					break;
 				case 5:
-					if (!Array.isArray(result)) { throw "Result [" + result + "] is not an array."; }
+					if (!(result instanceof Array)) { throw "Result [" + result + "] is not an array."; }
 					const list = new SystemVarsList('RESULT_LIST_' + lambdaContext.index);
 					list.Open();
 					for (let i = 0; i < result.length; i++) {
@@ -188,9 +188,9 @@ function evaluate(lambdaContext: LambdaContext): void {
 
 			dbg('Lambda ' + lambdaContext.index + ' variable updated to', result);
 		}
-	} catch (error) {
+	} catch (error : unknown) {
 		dbg('ERROR_' + lambdaContext.index, error);
-		SystemVars.Write('ERROR_' + lambdaContext.index, error.toString());
+		SystemVars.Write('ERROR_' + lambdaContext.index, error);
 	}
 }
 
@@ -204,13 +204,13 @@ function onSysVarChange(sysVarId: number): void {
 	}
 }
 
-function dbg(msg: string, val: number | undefined = undefined): void {
+function dbg(msg: string, val: unknown = undefined): void {
 	if (g_debug) {
 		if (val === undefined) {
 			System.Print('Lambda: ' + msg);
 		}
 		else if (val === Object(val)) {
-			System.Print('Lambda: ' + msg + ': ' + val.toString())
+			System.Print('Lambda: ' + msg + ': ' + val?.toString())
 		}
 		else {
 			System.Print('Lambda: ' + msg + ': ' + val);
